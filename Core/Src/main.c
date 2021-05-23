@@ -27,7 +27,6 @@
 #include <stdio.h>
 #include "Logo.h"
 #include "ssd1306.h"
-//#include "buttons.h"
 #include "hx711.h"
 /* USER CODE END Includes */
 
@@ -114,8 +113,9 @@ int main(void) {
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 
-	SSD1306_Draw_intrologo(Logo_GO_bmp);
+	//SSD1306_Draw_intrologo(Logo_GO_bmp);
 	//SSD1306_DrawMenus(1);
+
 	char HX_Value_Decimal[10];
 
 	float knownWeight = 2000;
